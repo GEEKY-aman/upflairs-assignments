@@ -19,7 +19,7 @@
 
     <li>
       <h2>Kyoto, Japan</h2>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kyoto_Montage_2017.png/800px-Kyoto_Montage_2017.png" 
+      <img src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/top-31-tourist-places-in-japan.jpg" 
            alt="Famous places in Kyoto, Japan" width="400">
       <p>Kyoto is a historical city in Japan known for its temples, gardens, traditional wooden houses, and geisha culture.</p>
       <a href="https://www.japan.travel/en/destinations/kansai/kyoto/" target="_blank">Discover Kyoto</a>
@@ -39,7 +39,7 @@
   <!-- Task 2: Book Overview -->
   <h1>📖 Book Overview: "Journey Through the Stars"</h1>
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/ESO_-_Milky_Way.jpg" 
+  <img src="https://m.media-amazon.com/images/I/61QqeBh5J-S._SL1500_.jpg" 
        alt="Book cover of Journey Through the Stars showing the Milky Way galaxy" width="400">
 
   <p>"Journey Through the Stars" is an exciting exploration of astronomy, cosmic mysteries, and humanity's quest to understand the universe. The book combines science, history, and futuristic ideas in a compelling narrative.</p>
@@ -72,3 +72,4 @@
 
 </body>
 </html>
+
