@@ -1,0 +1,184 @@
+Task 1
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+</head>
+<body>
+
+<h2 align="center">TIME TABLE</h2>
+
+<table border="1" cellspacing="0" cellpadding="10" align="center">
+    <tr>
+        <th>Day/Period</th>
+        <th>I<br>9:30-10:20</th>
+        <th>II<br>10:20-11:10</th>
+        <th>III<br>11:10-12:00</th>
+        <th>12:00-12:40</th>
+        <th>IV<br>12:40-1:30</th>
+        <th>V<br>1:30-2:20</th>
+        <th>VI<br>2:20-3:10</th>
+        <th>VII<br>3:10-4:00</th>
+    </tr>
+
+    <tr>
+        <td>Monday</td>
+        <td>Eng</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td rowspan="6" align="center"><b>L<br>U<br>N<br>C<br>H</b></td>
+        <td colspan="2" align="center">LAB</td>
+        <td></td>
+        <td>Phy</td>
+    </tr>
+
+    <tr>
+        <td>Tuesday</td>
+        <td colspan="3" align="center">LAB</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td>SPORTS</td>
+    </tr>
+
+    <tr>
+        <td>Wednesday</td>
+        <td>Mat</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3" align="center">LIBRARY</td>
+    </tr>
+
+    <tr>
+        <td>Thursday</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="2" align="center">LAB</td>
+        <td></td>
+        <td>Mat</td>
+    </tr>
+
+    <tr>
+        <td>Friday</td>
+        <td colspan="3" align="center">LAB</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td>Eng</td>
+        <td>Phy</td>
+    </tr>
+
+    <tr>
+        <td>Saturday</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td colspan="2" align="center">SEMINAR</td>
+        <td></td>
+        <td>SPORTS</td>
+    </tr>
+
+</table>
+
+
+
+
+Task 2
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="lightgreen">
+
+    <form>
+        <table border="0" align="center">
+            <tr>
+                <td colspan="2" align="center"><h3><font color="red">Personal Details</font></h3></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>E-mail id:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Contact#:</td>
+                <td><input type="text" name="contact"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><h3><font color="red">Educational Qualification</font></h3></td>
+            </tr>
+            <tr>
+                <td>Degree:</td>
+                <td>
+                    <select name="degree">
+                        <option>-- Select Group --</option>
+                        <option>BSc</option>
+                        <option>BCom</option>
+                        <option>BA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Engineering:</td>
+                <td>
+                    <select name="engineering">
+                        <option>-- Select Group --</option>
+                        <option>Computer Science</option>
+                        <option>Mechanical</option>
+                        <option>Civil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="hobby1" value="chess"> Playing chess
+                    <input type="checkbox" name="hobby2" value="reading"> Reading Books
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><h3><font color="red">Address</font></h3></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <textarea rows="5" cols="40" name="address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Attach Resume:</td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+</body>
+</html>
