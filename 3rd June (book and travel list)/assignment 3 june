@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Bucket List & Book Overview</title>
+</head>
+<body>
+
+  <!-- Task 1: Travel Bucket List -->
+  <h1>🌍 My Travel Bucket List</h1>
+
+  <ol>
+    <li>
+      <h2>Paris, France</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" 
+           alt="Eiffel Tower in Paris" width="400">
+      <p>Paris is known as the City of Light. It's famous for its art, fashion, and iconic landmarks like the Eiffel Tower and the Louvre Museum.</p>
+      <a href="https://en.parisinfo.com/" target="_blank">Explore Paris Tourism</a>
+    </li>
+
+    <li>
+      <h2>Kyoto, Japan</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kyoto_Montage_2017.png/800px-Kyoto_Montage_2017.png" 
+           alt="Famous places in Kyoto, Japan" width="400">
+      <p>Kyoto is a historical city in Japan known for its temples, gardens, traditional wooden houses, and geisha culture.</p>
+      <a href="https://www.japan.travel/en/destinations/kansai/kyoto/" target="_blank">Discover Kyoto</a>
+    </li>
+
+    <li>
+      <h2>Machu Picchu, Peru</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" 
+           alt="Ancient ruins of Machu Picchu in the Andes Mountains" width="400">
+      <p>Machu Picchu is a 15th-century Inca citadel located in the Andes Mountains, offering breathtaking views and rich history.</p>
+      <a href="https://www.peru.travel/en/attractions/machu-picchu" target="_blank">Visit Machu Picchu</a>
+    </li>
+  </ol>
+
+  <hr>
+
+  <!-- Task 2: Book Overview -->
+  <h1>📖 Book Overview: "Journey Through the Stars"</h1>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/ESO_-_Milky_Way.jpg" 
+       alt="Book cover of Journey Through the Stars showing the Milky Way galaxy" width="400">
+
+  <p>"Journey Through the Stars" is an exciting exploration of astronomy, cosmic mysteries, and humanity's quest to understand the universe. The book combines science, history, and futuristic ideas in a compelling narrative.</p>
+
+  <h2>Table of Contents</h2>
+
+  <ol>
+    <li>
+      Chapter 1: The Birth of Stars
+      <ul>
+        <li>What Are Stars?</li>
+        <li>Nebulas and Star Formation</li>
+      </ul>
+    </li>
+    <li>
+      Chapter 2: Life in the Universe
+      <ul>
+        <li>Possibility of Aliens</li>
+        <li>Exoplanets and Habitable Zones</li>
+      </ul>
+    </li>
+    <li>
+      Chapter 3: Exploring the Cosmos
+      <ul>
+        <li>Modern Telescopes</li>
+        <li>Space Missions and Rovers</li>
+      </ul>
+    </li>
+  </ol>
+
+</body>
+</html>
