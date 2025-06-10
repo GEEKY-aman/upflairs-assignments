@@ -1,0 +1,98 @@
+
+Task 2
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="lightgreen">
+
+    <form>
+        <table border="0" align="center">
+            <tr>
+                <td colspan="2" align="center"><h3><font color="red">Personal Details</font></h3></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>E-mail id:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Contact#:</td>
+                <td><input type="text" name="contact"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><h3><font color="red">Educational Qualification</font></h3></td>
+            </tr>
+            <tr>
+                <td>Degree:</td>
+                <td>
+                    <select name="degree">
+                        <option>-- Select Group --</option>
+                        <option>BSc</option>
+                        <option>BCom</option>
+                        <option>BA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Engineering:</td>
+                <td>
+                    <select name="engineering">
+                        <option>-- Select Group --</option>
+                        <option>Computer Science</option>
+                        <option>Mechanical</option>
+                        <option>Civil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="hobby1" value="chess"> Playing chess
+                    <input type="checkbox" name="hobby2" value="reading"> Reading Books
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><h3><font color="red">Address</font></h3></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <textarea rows="5" cols="40" name="address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Attach Resume:</td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+</body>
+</html>
