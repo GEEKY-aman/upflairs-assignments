@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Navbar</title>
+  <style>
+    body {
+      background-color: #b2f2f7;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .navbar {
+      background-color: #075d5c;
+      padding: 10px 20px;
+      margin: 30px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .contact-btn {
+      background-color: white;
+      color: #075d5c;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .top-heading {
+      text-align: right;
+      margin-right: 10px;
+      font-size: 16px;
+      color: #5c5c5c;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-heading">BOYWITHCODES</div>
+
+  <!-- NAVBAR 1 -->
+  <div class="navbar">
+    <div class="nav-left logo">B W C</div>
+    <div class="nav-center">
+      <a href="#" class="nav-link">HOME</a>
+      <a href="#" class="nav-link">ABOUT</a>
+      <a href="#" class="nav-link">SERVICES</a>
+    </div>
+    <div class="nav-right">
+      <button class="contact-btn">CONTACT</button>
+    </div>
+  </div>
+
+  <!-- NAVBAR 2 -->
+  <div class="navbar">
+    <div class="nav-left">
+      <a href="#" class="nav-link">HOME</a>
+      <a href="#" class="nav-link">ABOUT</a>
+      <a href="#" class="nav-link">SERVICES</a>
+      <button class="contact-btn">CONTACT</button>
+    </div>
+    <div class="nav-right logo">B W C</div>
+  </div>
+
+  <!-- NAVBAR 3 -->
+  <div class="navbar">
+    <div class="nav-left">
+      <a href="#" class="nav-link">HOME</a>
+      <a href="#" class="nav-link">ABOUT</a>
+      <a href="#" class="nav-link">SERVICES</a>
+    </div>
+    <div class="nav-center logo">B W C</div>
+    <div class="nav-right">
+      <button class="contact-btn">CONTACT</button>
+    </div>
+  </div>
+
+</body>
+</html>
