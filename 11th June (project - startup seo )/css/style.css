@@ -1,0 +1,822 @@
+    * {
+        margin-right: 0px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+     ::selection {
+        background-color: grey;
+        color: pink;
+    }
+    
+    .nav {
+        z-index: 9;
+        padding: 10px 60px;
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: blue;
+        position: fixed;
+    }
+    
+    .menu ul {
+        margin-top: 20px;
+        display: flex;
+        gap: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .menu ul li {
+        list-style: none;
+        justify-items: center;
+    }
+    
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    /* -------------home section-=----------------- */
+    
+    .header {
+        height: 550px;
+        width: 100%;
+        float: left;
+        background: url(../img/banner-left.png) no-repeat left, url(../img/banner-right.png) no-repeat right;
+        background-size: 177px, 600px;
+    }
+    
+    .home {
+        height: 550px;
+        width: 100%;
+        float: left;
+    }
+    
+    .home .seo {
+        margin: 150px 200px;
+        width: 650px;
+        height: 390px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: aliceblue;
+        opacity: 0.7;
+        position: absolute;
+        padding: 30px 40px;
+    }
+    
+    .home .seo h3 {
+        color: blue;
+        font: 600;
+        font-size: 1.6em;
+        border-bottom: 2px solid violet;
+        margin-right: 280px;
+        padding-bottom: 10px;
+    }
+    
+    .home .seo h1 {
+        color: black;
+        font: 600;
+        font-size: 2.6em;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .bl {
+        color: darkviolet;
+    }
+    
+    b {
+        color: rgb(19, 29, 122);
+    }
+    
+    .home .seo p {
+        line-height: 25px;
+        text-align: justify;
+        font-size: 20px;
+        font: 700;
+    }
+    
+    .home .seo a {
+        text-decoration: none;
+        color: darkblue;
+        padding-left: 6px;
+    }
+    
+    button {
+        align-self: center;
+        height: 30px;
+        width: 150px;
+        margin: 20px 10px;
+        font-size: .9em;
+        font-weight: 900;
+        border-radius: 50px;
+        background-color: rgb(19, 17, 78);
+        color: white;
+    }
+    /*============== servies =================*/
+    
+    .services {
+        margin-top: 570px;
+        height: 750px;
+        width: 100%;
+        background: url(../img/services-left.jpg) no-repeat left;
+        background-size: contain;
+    }
+    
+    .services .ser {
+        padding-left: 20px;
+        padding-top: 10px;
+        height: 600px;
+        width: 600px;
+        margin-top: 650px;
+        margin-left: 51%;
+    }
+    
+    .services .ser h3 {
+        font-size: 1.4em;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    
+    .red {
+        border-top: 2px solid violet;
+        padding-top: 10px;
+    }
+    
+    p {
+        font-weight: 700;
+        color: rgb(46, 43, 43);
+    }
+    
+    .services .box {
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .services .box .bb img {
+        border-radius: 40%;
+        margin-top: 7px;
+        padding-bottom: 10px;
+    }
+    
+    .services .box .bb {
+        padding-left: 20px;
+        background-color: white;
+        height: 200px;
+        width: 400px;
+        border: 3px solid rgb(215, 228, 239);
+        border-radius: 30px;
+    }
+    
+    .services .box2 {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .services .box2 .bb img {
+        border-radius: 40%;
+        margin-top: 7px;
+        padding-bottom: 10px;
+    }
+    
+    .services .box2 .bb {
+        padding-left: 20px;
+        background-color: white;
+        height: 200px;
+        width: 400px;
+        border: 3px solid rgb(215, 228, 239);
+        border-radius: 30px;
+    }
+    /* ==============project==========*/
+    
+    .project {
+        padding-left: 40px;
+    }
+    
+    .project h1 {
+        padding-bottom: 40px;
+    }
+    
+    .project .cards {
+        margin-top: 30px;
+        display: flex;
+        gap: 30px;
+        padding-bottom: 50px;
+        height: 300px;
+    }
+    
+    .card {
+        height: 250px;
+        border: 1px solid rgb(149, 211, 232);
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    
+    .card .img {
+        overflow: hidden;
+        border-radius: 30px 30px 0px 0px;
+        background-size: contain;
+        height: 150px;
+        width: 300px;
+    }
+    
+    .card h4 {
+        line-height: 20px;
+        font-weight: 600;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+    /*==============info===========*/
+    
+    .info {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 50px;
+        background: url(../img/infos-bg.jpg) center no-repeat;
+        background-size: cover;
+        margin-bottom: 30px;
+    }
+    
+    .full {
+        margin-left: 200px;
+        margin-top: 70px;
+        height: 450px;
+        width: 900px;
+        display: flex;
+        border-radius: 40px;
+    }
+    
+    .full .left {
+        height: 450px;
+        border-radius: 40px 0px 0px 40px;
+        width: 450px;
+        background: url(../img/left-infos.jpg) center no-repeat;
+        background-size: contain;
+    }
+    
+    .full .right {
+        border-radius: 0px 40px 40px 0px;
+        width: 450px;
+        height: 450px;
+        background-color: white;
+        padding-left: 30px;
+        padding-top: 20px
+    }
+    
+    .full .right p {
+        padding-top: 7px;
+        font-size: 12px;
+        color: rgba(43, 41, 41, 0.558);
+    }
+    
+    .full .right #load {
+        height: 15px;
+        width: 290px;
+        border: 2px solid rgb(52, 10, 100);
+        border-radius: 50px;
+    }
+    
+    .full .right h5 {
+        margin-top: 10px;
+        padding-bottom: 6px;
+        color: rgb(72, 9, 104);
+    }
+    
+    .second b {
+        margin-left: 120px;
+    }
+    
+    .first b {
+        margin-left: 160px;
+    }
+    
+    .last b {
+        margin-left: 90px;
+    }
+    
+    #load .load1 {
+        height: 12px;
+        width: 250px;
+        background-color: rgb(72, 9, 104);
+        ;
+    }
+    
+    #load .load2 {
+        height: 12px;
+        width: 240px;
+        background-color: rgb(72, 9, 104);
+        ;
+    }
+    
+    #load .load3 {
+        height: 12px;
+        width: 270px;
+        background-color: rgb(72, 9, 104);
+        ;
+    }
+    
+    .full .right .lor {
+        margin-top: 20px;
+    }
+    /*============contact===================*/
+    
+    .contact {
+        height: 600px;
+        width: 100%;
+        background: url(../img/contact-left.jpg) no-repeat;
+        background-size: 70px;
+    }
+    
+    .lasst {
+        display: flex;
+        gap: 1px;
+        margin-left: 200px;
+        height: 550px;
+        width: 900px+;
+        border-radius: 40px;
+        border: 2px solid antiquewhite;
+    }
+    
+    .lasst .map {
+        margin-left: 60px;
+        margin-top: 30px;
+        height: 450px;
+        width: 250px;
+        border-radius: 30px;
+        border: 2px solid antiquewhite;
+        overflow: hidden;
+    }
+    
+    .lasst .form {
+        margin-left: 60px;
+        margin-top: 30px;
+        height: 460px;
+        width: 500px;
+        border-radius: 30px;
+        border: 2px solid antiquewhite;
+        overflow: hidden;
+    }
+    
+    .form h1 {
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .form input {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 50px;
+        height: 40px;
+        background-color: bisque;
+    }
+    
+    .form textarea {
+        background-color: bisque;
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 80px;
+        width: 380px;
+    }
+    
+    .form .but {
+        margin-left: 30px;
+        width: 380px;
+    }
+    
+    .formlast {
+        color: white;
+        border-radius: 0px 0px 40px 40px;
+        height: 100px;
+        background: url(../img/video-bg.jpg);
+        background-size: cover;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .formlast i {
+        padding: 20px 0px 10px 25px;
+        transform: scale(2);
+    }
+    
+    .icon a {
+        color: white;
+    }
+    
+    .formlast h4 a {
+        color: white;
+        text-decoration: none;
+    }
+    
+     ::placeholder {
+        padding-left: 10px;
+    }
+    /*----copyright---*/
+    
+    .copy h3 {
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    /* ===================media quarry ================== */
+    
+    @media (max-width:600px) {
+        body {
+            overflow-x: hidden;
+        }
+        .nav {
+            padding: 10px 60px;
+            height: 80px;
+            width: 100%;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-between;
+            background-color: blue;
+            position: fixed;
+        }
+        .menu ul {
+            margin-top: 20px;
+            display: flex;
+            gap: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        .menu ul li {
+            list-style: none;
+            justify-items: center;
+        }
+        .menu ul li a {
+            font-size: 8px;
+            color: white text-decoration: none;
+        }
+        /* header  */
+        .header {
+            margin-top: 0px;
+            padding-bottom: 0px;
+            height: 550px;
+            width: 100vw;
+            float: left;
+            /* background: url(/img/banner-left.png) no-repeat left, url(/img/banner-right.png) no-repeat right; */
+            background-size: 70px, 300px;
+        }
+        .home .seo {
+            margin-left: 20px;
+            height: 60vh;
+            width: 55vw;
+        }
+        .home .seo h3 {
+            color: blue;
+            font: 600;
+            font-size: 3vw;
+            border-bottom: 2px solid violet;
+            margin-right: 0px;
+            padding-bottom: 10px;
+        }
+        .home .seo h1 {
+            color: black;
+            font: 600;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            font-size: 2vh;
+        }
+        .bl {
+            color: rgba(69, 11, 94, 0.87);
+        }
+        b {
+            color: rgb(19, 29, 122);
+        }
+        .home .seo p {
+            line-height: 10px;
+            text-align: justify;
+            font-size: 8px;
+            font: 500;
+        }
+        .home .seo a {
+            text-decoration: none;
+            color: darkblue;
+            padding-left: 6px;
+        }
+        button {
+            align-self: center;
+            height: 5vh;
+            width: 10vw;
+            margin: 10px 5px;
+            font-size: 8px;
+            font-weight: 900;
+            border-radius: 50px;
+            background-color: rgb(19, 17, 78);
+            color: white;
+        }
+        /* service -------------------------------- */
+        .services {
+            height: 80vh;
+            width: 99vw;
+            /* background: url(/img/services-left.jpg) no-repeat left; */
+            background-size: 300px;
+        }
+        .services .ser {
+            padding-left: 15px;
+            padding-top: 10px;
+            height: 200px;
+            width: 50vw;
+            margin-top: 50px;
+            margin-left: 43%;
+        }
+        .services .ser h3 {
+            font-size: 15px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        .red {
+            border-top: 2px solid violet;
+            padding-top: 10px;
+        }
+        p {
+            font-size: 10px;
+            font-weight: 700;
+            color: rgb(46, 43, 43);
+        }
+        .services .box {
+            height: 25vh;
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            font-size: 8px;
+        }
+        .services .box .bb h4 {
+            margin-top: -10px;
+        }
+        .services .box .bb img {
+            border-radius: 40%;
+            scale: (0.5);
+            margin-top: 7px;
+            padding-bottom: 10px;
+        }
+        .services .box .bb {
+            margin-right: 0px;
+            padding-left: 20px;
+            background-color: white;
+            height: 110px;
+            width: 110px;
+            border: 3px solid rgb(215, 228, 239);
+            border-radius: 30px;
+        }
+        .services .box2 {
+            margin-top: -150px;
+            display: flex;
+            gap: 10px;
+            font-size: 10px;
+            display: none;
+        }
+        .services .box2 .bb img {
+            border-radius: 40%;
+            margin-top: 2px;
+            padding-bottom: 6px;
+        }
+        .services .box2 .bb {
+            padding-left: 20px;
+            background-color: white;
+            height: 150px;
+            width: 350px;
+            border: 3px solid rgb(215, 228, 239);
+            border-radius: 30px;
+        }
+        /* ==============project==========*/
+        .project {
+            margin-bottom: 40px;
+            padding-left: 40px;
+        }
+        .project h1 {
+            padding-bottom: 40px;
+        }
+        .project .cards {
+            overflow: hidden;
+            margin-top: 6px;
+            display: inline-flex;
+            flex-direction: row;
+            gap: 6px;
+            padding-bottom: 50px;
+            margin-left: 10px;
+            margin-left: 0px;
+        }
+        .card {
+            height: 40vh;
+            width: 20vw;
+            border: 1px solid rgb(149, 211, 232);
+            border-radius: 30px;
+            font-size: 10px;
+        }
+        .card .img {
+            overflow: hidden;
+            border-radius: 30px 30px 0px 0px;
+            background-size: contain;
+            height: 80px;
+            width: 100%;
+        }
+        .card h4 {
+            font-size: 90%;
+            line-height: 100%;
+            font-weight: 600;
+            padding-top: 10px;
+            margin-left: 20px;
+        }
+        /* /==============info===========/ */
+        .info {
+            height: 100vh;
+            width: 100%;
+            padding-bottom: 50px;
+            background: url(/Project-Dheeraj/Project-Dheeraj/img/infos-bg.jpg) center no-repeat;
+            background-size: cover;
+            margin-bottom: 0px;
+        }
+        .full {
+            margin-left: 50px;
+            margin-top: 30px;
+            height: 50vh;
+            width: 80vw;
+            display: flex;
+            border-radius: 40px;
+        }
+        .full .left {
+            height: 80vh;
+            border-radius: 40px 0px 0px 40px;
+            width: 70vw;
+            background: url(/Project-Dheeraj/Project-Dheeraj/img/left-infos.jpg) center no-repeat;
+            background-size: cover;
+        }
+        .full .right {
+            border-radius: 0px 40px 40px 0px;
+            width: 60vw;
+            height: 80vh;
+            background-color: white;
+            padding-left: 10px;
+            padding-top: 20px;
+        }
+        .full .right h1 {
+            font-size: 10px;
+        }
+        .full .right p {
+            margin-top: -10px;
+            font-size: 9px;
+            color: rgba(43, 41, 41, 0.558);
+        }
+        .full .right #load {
+            margin-right: 10px;
+            height: 8px;
+            width: 200px;
+            border: 2px solid rgb(52, 10, 100);
+            border-radius: 50px;
+        }
+        .full .right h5 {
+            font-size: 8PX;
+            margin-top: 10px;
+            padding-bottom: 6px;
+            color: rgb(72, 9, 104);
+        }
+        .second b {
+            margin-left: 100px;
+        }
+        .first b {
+            margin-left: 130px;
+        }
+        .last b {
+            margin-left: 45px;
+        }
+        #load .load1 {
+            height: 6px;
+            width: 185px;
+            background-color: rgb(72, 9, 104);
+            ;
+        }
+        #load .load2 {
+            height: 6px;
+            width: 180px;
+            background-color: rgb(72, 9, 104);
+            ;
+        }
+        #load .load3 {
+            height: 6px;
+            width: 190px;
+            background-color: rgb(72, 9, 104);
+            ;
+        }
+        .full .right .lor {
+            margin-top: 8px;
+        }
+        /* /============contact===================/ */
+        .contact {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 1vh;
+            height: 350px;
+            width: 100vw;
+            background: url(/img/contact-left.jpg) no-repeat;
+            background-size: 70px;
+        }
+        .lasst {
+            display: flex;
+            gap: 1px;
+            margin-left: 10px;
+            height: 500px;
+            width: 450px;
+            border-radius: 40px;
+            border: 2px solid antiquewhite;
+        }
+        .lasst .map {
+            margin-left: 10px;
+            margin-top: 30px;
+            height: 450px;
+            width: 250px;
+            border-radius: 30px;
+            border: 2px solid antiquewhite;
+            overflow: hidden;
+        }
+        .lasst .form {
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-top: 30px;
+            height: 450px;
+            width: 250px;
+            border-radius: 30px;
+            border: 2px solid antiquewhite;
+        }
+        .form h1 {
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .form input {
+            width: 90px;
+            margin-left: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 50px;
+            height: 40px;
+            background-color: bisque;
+        }
+        .form textarea {
+            background-color: bisque;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-top: 20px;
+            height: 80px;
+            width: 180px;
+        }
+        .form .but {
+            margin-left: 10px;
+            width: 190px;
+        }
+        .formlast {
+            color: rgb(212, 34, 34);
+            border-radius: 0px 0px 40px 40px;
+            height: 10px;
+            background: url(/img/video-bg.jpg);
+            background-size: cover;
+            font-size: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .formlast {
+            color: white;
+            border-radius: 0px 0px 40px 40px;
+            height: 100px;
+            background: url(../img/video-bg.jpg);
+            background-size: cover;
+            font-size: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .formlast i {
+            padding: 20px 0px 10px 25px;
+            transform: scale(1.4);
+        }
+        .icon a {
+            color: white;
+        }
+        .formlast h4 a {
+            color: white;
+            font-size: 8px;
+            text-decoration: none;
+        }
+         ::placeholder {
+            font-size: 10px;
+            padding-left: 10px;
+        }
+        /* /----copyright---/ */
+        .copy h3 {
+            margin-top: 220px;
+            font-size: 8px;
+            text-align: center;
+            margin-bottom: -100px;
+        }
+    }
