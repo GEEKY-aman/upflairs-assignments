@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Practice - Math, Date, Timers, DOM</title>
+</head>
+<body>
+
+  <h2>Math Output</h2>
+  <p id="randomNum"></p>
+  <p id="sqrtNum"></p>
+  <p id="rounding"></p>
+
+  <h2>Date Output</h2>
+  <p id="dateTime"></p>
+  <p id="yearOnly"></p>
+  <p id="daysLeft"></p>
+
+  <h2>Timer Output</h2>
+  <p id="welcomeMsg"></p>
+
+  <h2>DOM Output</h2>
+  <p id="helloText"></p>
+  <div id="htmlText"></div>
+  <div id="listItems"></div>
+
+  <script>
+    window.onload = function() {
+      // MATH
+
+      // 1. Random number between 1-100
+      let rand = Math.floor(Math.random() * 100) + 1;
+      document.getElementById("randomNum").innerText = "Random Number: " + rand;
+      console.log("Random Number:", rand);
+
+      // 2. Square root of a number
+      let num = 49;
+      document.getElementById("sqrtNum").innerText = "Square root of 49: " + Math.sqrt(num);
+      console.log("Square root:", Math.sqrt(num));
+
+      // 3. Floor, Ceil, Round of 4.7
+      let x = 4.7;
+      document.getElementById("rounding").innerText =
+        "Floor: " + Math.floor(x) + ", Ceil: " + Math.ceil(x) + ", Round: " + Math.round(x);
+      console.log("Rounding:", Math.floor(x), Math.ceil(x), Math.round(x));
+
+
+      // DATE
+
+      // 1. Current Date and Time
+      let now = new Date();
+      document.getElementById("dateTime").innerText = "Now: " + now;
+
+      // 2. Current Year
+      document.getElementById("yearOnly").innerText = "Year: " + now.getFullYear();
+
+      // 3. Days left in year
+      let end = new Date(now.getFullYear(), 11, 31);
+      let msLeft = end - now;
+      let daysLeft = Math.ceil(msLeft / (1000 * 60 * 60 * 24));
+      document.getElementById("daysLeft").innerText = "Days left this year: " + daysLeft;
+
+
+      // TIMERS
+
+      // 1. Countdown 5 to 1
+      let count = 5;
+      let timer = setInterval(function() {
+        console.log(count);
+        count--;
+        if (count === 0) {
+          clearInterval(timer);
+          console.log("Time's up!");
+        }
+      }, 1000);
+
+      // 2. Welcome message after 2 sec
+      setTimeout(function() {
+        document.getElementById("welcomeMsg").innerText = "Welcome to JavaScript!";
+      }, 2000);
+
+
+      // DOM PRACTICAL
+
+      // 1. Hello World with innerText
+      document.getElementById("helloText").innerText = "Hello World";
+
+      // 2. Bold text using innerHTML
+      document.getElementById("htmlText").innerHTML = "<b>JavaScript is Fun</b>";
+
+      // 3. List from array
+      let arr = ["HTML", "CSS", "JS"];
+      let list = "<ul>";
+      for (let i = 0; i < arr.length; i++) {
+        list += "<li>" + arr[i] + "</li>";
+      }
+      list += "</ul>";
+      document.getElementById("listItems").innerHTML = list;
+    };
+  </script>
+</body>
+</html>
