@@ -1,1 +1,94 @@
-first
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Practice Assignment</title>
+</head>
+<body>
+
+  <h2>Math, Date, Timers & DOM Output</h2>
+
+  <!-- MATH OUTPUT -->
+  <div id="random"></div>
+  <div id="sqrt"></div>
+  <div id="rounding"></div>
+
+  <!-- DATE OUTPUT -->
+  <div id="datetime"></div>
+  <div id="year"></div>
+  <div id="daysleft"></div>
+
+  <!-- TIMER & WELCOME -->
+  <div id="welcome"></div>
+
+  <!-- DOM PRACTICAL -->
+  <p id="hello"></p>
+  <div id="htmltext"></div>
+  <div id="list"></div>
+
+  <script>
+    // MATH
+    function getRandom() {
+      return Math.floor(Math.random() * 100) + 1;
+    }
+
+    function getSqrt(num) {
+      return Math.sqrt(num);
+    }
+
+    let randomNum = getRandom();
+    console.log("Random Number:", randomNum);
+    document.getElementById("random").innerText = "Random Number (1-100): " + randomNum;
+
+    let sqrtNum = getSqrt(25);
+    console.log("Square Root of 25:", sqrtNum);
+    document.getElementById("sqrt").innerText = "Square Root of 25: " + sqrtNum;
+
+    let num = 4.7;
+    console.log("Floor:", Math.floor(num));
+    console.log("Ceil:", Math.ceil(num));
+    console.log("Round:", Math.round(num));
+    document.getElementById("rounding").innerText = "For 4.7 → Floor: " + Math.floor(num) + ", Ceil: " + Math.ceil(num) + ", Round: " + Math.round(num);
+
+    // DATE
+    let now = new Date();
+    document.getElementById("datetime").innerText = "Current Date & Time: " + now;
+    document.getElementById("year").innerText = "Current Year: " + now.getFullYear();
+
+    let end = new Date(now.getFullYear(), 11, 31);
+    let diff = end - now;
+    let daysLeft = Math.ceil(diff / (1000 * 60 * 60 * 24));
+    console.log("Days left in year:", daysLeft);
+    document.getElementById("daysleft").innerText = "Days Left in Year: " + daysLeft;
+
+    // TIMERS
+    let count = 5;
+    let timer = setInterval(function() {
+      console.log(count);
+      count--;
+      if (count === 0) {
+        console.log("Time's up!");
+        clearInterval(timer);
+      }
+    }, 1000);
+
+    setTimeout(function() {
+      document.getElementById("welcome").innerText = "Welcome to JavaScript!";
+    }, 2000);
+
+    // DOM
+    window.onload = function() {
+      document.getElementById("hello").innerText = "Hello World";
+      document.getElementById("htmltext").innerHTML = "<b>JavaScript is Fun</b>";
+
+      let arr = ["HTML", "CSS", "JS"];
+      let output = "<ul>";
+      for (let i = 0; i < arr.length; i++) {
+        output += "<li>" + arr[i] + "</li>";
+      }
+      output += "</ul>";
+      document.getElementById("list").innerHTML = output;
+    };
+  </script>
+
+</body>
+</html>
