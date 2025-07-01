@@ -1,0 +1,63 @@
+/* Task 1: Styled Div Box */
+.styled-box {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid navy;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Task 2: Paragraph Inside Div */
+.styled-paragraph {
+  color: darkblue;
+  font-size: 16px;
+}
+
+/* Task 3: Buttons with Different Colors */
+.buttons-section {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn.red {
+  background-color: red;
+}
+
+.btn.green {
+  background-color: green;
+}
+
+.btn.yellow {
+  background-color: gold;
+  color: black;
+}
+
+/* Task 4: Circle */
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orange;
+  border: 2px dashed brown;
+  margin-bottom: 20px;
+}
+
+/* Task 5: Colored Card Layout */
+.card {
+  width: 250px;
+  height: 300px;
+  background: linear-gradient(to bottom right, blue, purple);
+  border: 1px solid gray;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}

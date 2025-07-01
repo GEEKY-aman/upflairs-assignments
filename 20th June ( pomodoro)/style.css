@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .settings input {
+    width: 60px;
+    margin: 5px;
+  }
+  
+  .timer {
+    margin: 30px 0;
+  }
+  
+  #timeDisplay {
+    font-size: 3rem;
+    margin: 10px;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+  }
+  
+  .cycle-indicator {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }

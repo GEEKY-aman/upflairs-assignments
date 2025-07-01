@@ -1,0 +1,77 @@
+/* App container */
+.app {
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #f1f5f9);
+  min-height: 100vh;
+}
+
+/* Products grid */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+/* Product card */
+.product-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image */
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+}
+
+/* Product name */
+.product-card header h2 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Description */
+.product-card figcaption {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Footer text */
+.product-card footer p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+
+/* Stock status */
+.in-stock {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.out-stock {
+  color: #d32f2f;
+  font-weight: 600;
+}

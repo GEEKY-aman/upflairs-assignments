@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My restaurant</title>
+</head>
+<body>
+    <h2>🍝Bella Vista Restaurant🍝 </h2>
+    <p>Authentic Italian Cuisine Since 1952</p>
+    <p>📍123 Main street, Little Itly |📞 (555) 123-4567</p><hr>
+    <h3>Qick Navigation:</h3>
+ <ul type="circle" ></ul>
+    <li><a href="https://appetizers.com">🥗Appetizers</a></li>
+    <li><a href="https://pasta.com">🍝Pasta</a></li>                             
+    <li><a href="https://.Pizza.com">🍝Pizza</a></li>                                    
+    <li><a href="https://.Main Course.com">🥩Main Course</a></li>                            
+    <li><a href="https://.Desserts.com">🍰Desserts</a></li>                                              
+    <li><a href="https://.Beverages.com">🍷Beverages</a></li>    
+    <li><a href="https://.Contact Us.com">📞Contact Us</a></li>                     
+    <li><a href="https://.Make Reservation.com">📃Make Reservation</a></li><hr>  
+    <img src="https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/1/16/ff24320a-713a-4cb3-a62c-d5f73e243017_image2cdf83b2725124d7a91f15a737b1db015.JPG" width="500" height="300">
+    <p>Our beautiful dining room welcomes you</p>
+    <img src="https://images.jdmagicbox.com/v2/comp/surat/n9/0261px261.x261.240624161444.g5n9/catalogue/oran-restaurant-and-banquets-pal-gam-surat-restaurants-76rz6i3bv3.jpg" width="200"><br>
+    <h3> About Bella Vista</h3>
+    <p>Welcome to Vella Vista Restaurant, Where tradition meets flavor in every dish. Our family has been serving authetic italian cusine for over 70 years, bringing you the finest ingredien and time-honored recepes passed down through generations.</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;"The best Italian food outside of italy!"</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_Food & Wine Magazine</p>
+
+    <h2>🥗Appetizers</h2>
+
+    <table border="2" cellspacing="4" width="500" height="300">
+        <tr>
+            <td><img src="https://img.taste.com.au/YGlI-5BH/taste/2016/11/classic-tomato-and-basil-bruschetta-93980-1.jpeg" width="200" height="100">
+            </td> 
+            <th> Bruschetta Classica-$12<br> fresh tomatoes, basil, garlic on toasted bread.</th>
+        </tr>
+        <tr align="center" >
+            <td><img src="https://www.marthastewart.com/thmb/4X4bEVmelQmvpGpf0GknLB6Wa-A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-312437-antipasto-hero-horiz-0923-ff229bc60f3647c6956ec6b203edfa9e.jpg" width="200" height="100"></td>
+            <th>Antipasto Platter - $18 <br> selection of cured meats, cheese, olives.</th>
+        </tr>
+        <tr align="center">
+            <td><img src="https://www.stefanofaita.com/wp-content/uploads/2022/04/calmars-frits-fritto-misto.jpg" width="200" height="100">
+            </td>
+            <th>Chalamari Fritti - $15<br>Crispy fried squid with marinara sauce</td></th>
+            
+        </tr>
+        <tr align="center">
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKZzybeNNAvfZrNrtKcT9JEyY9FJesiMP9Q&s" width="200" height="100"></imag>
+            <th>Caprese Salad - $14<br> Fresh mozzarella, tomatoes, basil with balsamic glaze.</th>
+        </tr>
+        </table>
+
+        <h3>🍝Pasta</h3>
+
+        <p> All pasta is made fresh daily in our kitchen.</p>
+        <h4>
+            <tr align="center"></tr>
+            Our signature pasta Dishes</h4>
+        <table border="1" cellspacing="1" width="700" height="200">
+        <tr>
+            <th>Dish name</th>
+            <th>Descripation</th>
+            <th>Price</th>
+            <th>Spicy Level</th>
+        </tr>
+        <tr align="center" >
+            <th>Spaghetti Carbonara</th>
+            <td>Eggs, pancetta, pecorino cheese.</td>
+            <td>$22</td>
+            <td> Mild</td>
+        </tr>
+        <tr align="center">
+            <th>Fettuccine alfredo</th>
+            <td>Rich cream sauce with parmesan cheese</td>
+            <td>$20</td>
+            <td>None</td>
+        </tr>
+        <tr align="center">
+            <th> Pene Arrabbiata</th>
+            <td>spicy tomato sauce with garlic and red chilies</td>
+            <td>$19</td>
+            <td>Hot</td>
+        </tr>
+        <tr align="center">
+            <th>Lasagna Della Casa</th>
+            <td>Layers of pasta,meat sauce, and three cheese</td>
+            <td>$24</td>
+            <td>Mild</td>
+        </tr>
+    </table>
+
+        <h2>🍕Wood-fried Pizza</h2>
+        <h3> Traditional Pizzas</h3>
+        <h4>1. Margherita- $16</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkqQv_OWlwUjUtOVW2_FhN3qeyctB8VgekDg&s" width="150" >
+        <ul type="circle" ></ul>
+    <li>San Marzano Tomatoes</li>
+    <li>Fresh mozzarella</li>
+    <li>fresh basil</li>
+    <li>🥩Extra virgin olive oil</li>
+    <h4>2.Peperoni-$18</h4>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQugXpVRngY9P616NZ57jyx2kl-Xoq_DbC58A&s" width="150">
+<ul type="circle" ></ul>
+    <li>tomato sauce</li>
+    <li>Mozzarella cheese</li>
+    <li>Premium pepperomi</li>
+    <h2>3.Quattro Stagioni- $22</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSN7cfssufzsqeTiOsBpfJaIQiCQUfqEOiXw&s" width="150"></imag>
+    <li>Artichokes</li>
+    <li>Mushrooms</li>
+    <li>Ham</li>
+    <li>olives</li>
+    <h3>Speciality Pizzas</h3>
+    <hr>
+    </table>
+        <table border="1" cellspacing="2" width="400" height="100">
+            <tr>
+            <td>
+                <img src="https://minneepizza.com/wp-content/uploads/2022/12/aAGXy8d_700b.jpg" alt="Proscuitto e Rucola" width="150" height="100"></imag>
+            </td>
+            <th>Proscuitto e Rucola- $24</th>
+        </tr>
+        <tr align="center" >
+            <td>
+                <img src="https://www.carolynscooking.com/wp-content/uploads/2024/02/Pizza-Diavola-7.jpg" width="150" height="100"></imag>
+            </td>
+            <th>Diavola-$20</th>
+        </tr>
+        <tr align="center">
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQklcMvm7dPuwgdsWUEzPgUTDfd8IOqnFUw&s" width="200" height="100"></imag>
+            </td>
+            <th>Vegetariana-$19
+            </th>
+            </tr>
+         </table>
+        <h3>🥩Main Course</h3>
+
+        <h4> Meat & Poultry</h4>
+
+        <p> All main coures served with seasonal vegatable and your choice of pasta or risotto </p>
+
+         <table border="2" cellspacing="3" width="500" height="100">
+        <tr>
+            
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_dwDyG1VlUWZRf3txKIuv1-KO1y1ISP0Fw&s"alt="Antipasto Platter"  width="200"></td>
+    
+        <th>Osso buco-$35<br>chef's special<br> braised veal shanks in wine</th>
+        </tr>
+        <tr align="center">
+            <td><img src="https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg" alt="chicken paramigiana"  width="200"></td>
+            <th>chicken parmigiana- $26 <br>breaded chicken with tomato sauce</th>
+        </tr>
+        <tr align="center">
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKqOsdqcDrip_k-lZ3KgM_7XdSmYpWRoWk7A&s" alt="veal marsala" width="200"></td>
+            <th> veal marsala- $32<br>Tender veal mushroom wine sauce</th>
+        </tr>
+    </table>
+    <h3> Seafood</h3>
+    <h4> Branzino al sale - $28</h4>
+    <img src="https://wips.plug.it/cips/buonissimo.org/cms/2022/07/branzino-al-sale.jpg?w=713&a=c&h=407" alt="Branzino al sale" width="200" height="100"></imag>
+
+    <li>whole sea bass baked in sea salt</li>
+
+    <h4>Linguine alle Vongole-$25</h4>
+
+     <img src="https://rhubarbandcod.com/wp-content/uploads/2021/11/Pasta-Alle-Vongole-1-1.jpg" width="150" >
+     <li>linguine with fresh clams in white wine sauce</li>
+    <h4> Salmone Griglia</h4>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwc5maRD39g6eDG24WX6WAq255L_hcRlomGw&s" width="150">
+    <li>Grilled Atlantic Salmon with lemon herbs</li>
+    <hr>
+    <h2>🍰Dolci(Desserts)</h2>
+
+    <h3>Traditional Italian Sweets</h3>
+
+    <table border="2" cellspacing="2" width="400" height="200">
+        <tr>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEv1l6X3jXB6iHFgPwIfPdnZJih8ksX3ajg&s" width="200" height="100"></imag>
+            </td>
+            <th>Tiramisu-$9</th>
+            </tr>
+        </tr>
+        <tr align="center" >
+            <td> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUqTmHk-2RNDSGYoy9Mp7_LAvbYKJn0A0JA&s" alt="Cannoli Siciliani" width="200" height="100"></imag>
+            </td>
+            <td> Cannoli Siciliani-$3</td>
+        </tr>
+        <tr align="center">
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZulVbxKQsntVndIjgh5kmIkr9oL1s0frLlw&s" alt="ice cream" width="100"></imag>
+
+    <h3>🍷Beverages</h3>
+    <h4>Wine Selection</h4>
+    <h5>Red Wines</h5>
+    <ul type="circle" ></ul>
+    <li>Chianti Classico(Tuscany) - Glass $12|Bottle $45</li>
+    <li>Barolo (piedmont)- Glass$18|Bottle $85</li>
+    <li>Montepulciano d'Abruzzo-Glass $10|Bottle $38</li>
+    <h5> White Wines</h5>
+    <ul type="circle" ></ul>
+    <li>pinot Grigio-glass $11|Bottle $38</li>
+    <li>Vermentino-Glass $13|Bottle $38</li>
+    <li>Gavi di Gavi- Glass $15|Bottle $38</li>
+    <h5>Non-Alcoholic</h5>
+    <ol>
+    <li> Espresso- $3</li>                               
+    <li> Cappuino- $4</li>
+    <li> Fresh juices- $5</li>
+    <hr> </ol>
+    <h2>📞Contact & Hours</h2>
+    <h3>Operating System</h3>
+    <table border="2" cellspacing="2" width="500" height="150">
+        <tr>
+            <th>Day</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+        <tr align="center" >
+            <td>Monday- Thurday</td>
+            <td>11:30AM - 3:00PM</td>
+            <td>5:00PM - 10:00PM</td>
+        </tr>
+        <tr align="center">
+            <td>Friday - Saturday</td>
+            <td>11:30AM - 3:00PM</td>
+            <td>5:00PM - 11:00PM</td>
+        </tr>
+        <tr align="center">
+            <td>Sunday</td>
+            <td>12:30AM - 4:00PM</td>
+            <td>4:00PM - 9:00PM</td>
+        </tr>
+    </table>
+    <h3>Contact Information</h3>
+    <H5>Bella Vista Resturant</H5>
+    <p>123 main Street<br> Little Italy, NY 10013<br>Phone:<a href="https/:(555)123-4567">(555)123-4567</a><br>Email: <a href="https/:info@bellavista.com"> info@bellavista.com</a><br>website:<a href="https/:bellavista.com">www.bellavista.com</a>
+    <hr>
+    <h2>📝Make Reservation</h2>
+    <h4>Reserve your table today!(All Fields required)</h4>
+    <h4>Personal Information</h4>
+    <label >Your Name : </label><br>
+        <input readonly type="text" name="name"><br><br>
+        <label for="">Email</label><br>
+        <input type="email" required><br><br>
+        <label for="">Phone Number</label><br>
+        <input type="Phone number"><br>
+        <hr>
+        <h4> Reservation Details</h4>
+        <label for="">Preferred date:</label><br>
+        <input type="datetime-local"><br><br>
+        <label for="">Preferred time:</label><br>
+        <input type="time"><br><br>
+         <p>Number of Guests:</p>
+        <select >
+            <option value="">1</option>
+            <option value="">2 </option>
+            <option value="">3</option>
+        </select><br>
+        <p>Special Occasion</p>
+       <label for="">No special Occasio</label> <input type="checkbox"><br>
+       <label for="">Birthday</label> <input type="checkbox"><br>
+       <label for="">Anniversary</label> <input type="checkbox"><br>
+       <label for="">bussiness Dinner</label> <input type="checkbox"><br>
+       <label for="">other/label <input type="checkbox"><br>
+        <p>Dietary Preferences/ Allergies</p>
+     <label for="">Vegetarian</label> <input type="checkbox"><br>
+       <label for="">Vegan</label> <input type="checkbox"><br>
+       <label for="">Gluten-free</label> <input type="checkbox"><br>
+       <label for="">Diary-Free</label> <input type="checkbox"><br>
+        <p>Special Request/Comments:</p>   
+        <textarea cols="50" rows="5"></textarea><br><hr>
+        <input type="checkbox"><label for="">Subscribe to our newsletter for special offers</label> <br>
+        <input  type="submit" value="Make Reservation">
+        <input type="reset" value="clear Form">
+        </fieldset>
+    </form>
+<hr>
+<h2>Follow Us</h2>
+<a href="https://Facebook.com">📘Facebook</a> |
+<a href="https://instagram.com">📸instagram</a> | 
+<a href="https://twitter.com">🐦twitter</a>
+<p>2024 Bella Vista Restaurant All rights reserved|<a href="https\:privacy policy.com"> privacy policy</a>|<a href="https\:Terms of Service">Terms of service</a> </p>
+<h5> Buon Appetito</h5>
+
+
+</body>
+</html>
