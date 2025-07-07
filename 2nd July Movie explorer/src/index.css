@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  background: #141414;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
