@@ -1,37 +1,57 @@
 import React, { useState } from "react";
-import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 export default function AddTask() {
-  const [task, setTask] = useState({
-    title: "",
-    description: "",
-    date: ""
-  });
-  const navigate = useNavigate();
+  const [task, setTask] = useState("");
 
-  const handleChange = (e) => {
-    setTask({ ...task, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:3001/tasks", task);
-    navigate("/");
+    if (task.trim()) {
+      alert(`✅ Task Added: ${task}`);
+      setTask("");
+    } else {
+      alert("⚠️ Please enter a task before submitting.");
+    }
   };
 
   return (
-    <main>
-      <h2>Add New Task</h2>
-      <form onSubmit={handleSubmit}>
-        <label>Title</label>
-        <input name="title" type="text" onChange={handleChange} required />
-        <label>Description</label>
-        <textarea name="description" onChange={handleChange}></textarea>
-        <label>Due Date</label>
-        <input name="date" type="date" onChange={handleChange} />
-        <button type="submit">Add Task</button>
+    <div style={containerStyle}>
+      <h2>➕ Add a New Task</h2>
+      <form onSubmit={handleSubmit} style={formStyle}>
+        <input
+          type="text"
+          placeholder="Enter your task..."
+          value={task}
+          onChange={(e) => setTask(e.target.value)}
+          style={inputStyle}
+        />
+        <button type="submit" style={buttonStyle}>Add Task</button>
       </form>
-    </main>
+    </div>
   );
 }
+
+const containerStyle = {
+  padding: "20px",
+  textAlign: "center",
+};
+
+const formStyle = {
+  marginTop: "20px",
+};
+
+const inputStyle = {
+  padding: "10px",
+  width: "250px",
+  marginRight: "10px",
+  fontSize: "16px",
+};
+
+const buttonStyle = {
+  padding: "10px 15px",
+  fontSize: "16px",
+  backgroundColor: "#007bff",
+  color: "white",
+  border: "none",
+  borderRadius: "5px",
+  cursor: "pointer",
+};
